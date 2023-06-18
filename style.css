@@ -41,7 +41,27 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-right: 10px;
     padding: 20px 80px;
     background: #E3E6F3;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
 }
+#navbar {
+    display: flex;
+    list-style: none;
+    padding: 0;
+  }
+  
+  #navbar li {
+    margin-right: 30px; /* Optional margin between list items */
+  }
+   
+  #navbar li:last-child {
+    margin-right: 40px; /* Remove margin from the last list item */
+  }
+
+  #navbar li a {
+    text-decoration: none;
+    color: #000; /* Optional link color */
+  }
+  
